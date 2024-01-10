@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: rgb(108, 152, 70);
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    border: 8px solid;
+    color: white;
+    border-color: white;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 36px;
+}
+
+.banner {
+    position: relative;
+}
+
+
+.banner img {
+    max-width: 100%;
+}
+
+
+.welcome {
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+
+
+
+.welcome h2 {
+    color: white;
+    font-size: 70px;
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.welcome h2 span {
+    font-size: 120px;
+}
+
+/*navigation bar*/
+
+nav {
+    background-color: #f4f4f4;
+    padding: 25px;
+    position: sticky;
+    top: 100px;
+    z-index: 2;
+}
+
+nav ul {
+    list-style-type: none;
+    white-space: nowrap;
+    /*display: flex; justify-content: space around; */
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 25%;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: 4b4b4b;
+}
+
+/*open color*/
+
+nav li a .join {
+    color: #728308;
+}
+
+nav li a:hover {
+    color: #728308;
+    text-decoration: underline;
+}
